@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333; /* Background color for the whole page */
+    height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+canvas {
+    background-color: black; /* Black background for the game canvas */
+    border: 2px solid white;
+    display: block;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#left-right {
+    display: flex;
+    justify-content: center;
+    gap: 0px; /* Adjust this value to decrease or increase space between left and right buttons */
+}
+
+.control-button {
+    background: none;
+    color: white;
+    font-size: 24px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Adjust the vertical spacing */
+#up {
+    margin-bottom: 0px; /* Space below the 'up' button */
+}
+
+#down {
+    margin-top: 0px; /* Space above the 'down' button */
+}
+
+.control-button:active {
+    color: #ddd;
+}
+
+h1 {
+    color: white;
+}
+
+#score {
+    font-size: 18px;
+    color: white;
+}
+
+button#restartButton {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
